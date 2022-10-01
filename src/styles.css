@@ -3013,7 +3013,7 @@ textarea.form-control.is-invalid {
   user-select: none;
   background-color: transparent;
   border: 1px solid transparent;
-  padding: 1rem 1.75rem;
+  padding: 0.5rem 0.75rem;
   font-size: 0.875rem;
   border-radius: 0;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
