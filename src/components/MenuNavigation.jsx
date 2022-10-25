@@ -27,14 +27,14 @@ function MenuNavigation() {
                 </NavLink>
               </li>
               <li className='nav-item'>
-                <a className='nav-link px-lg-3 py-3 py-lg-4' href='about.html'>
-                  Entrar
-                </a>
+              <NavLink className='nav-link px-lg-3 py-3 py-lg-4' to='login'>
+                  Login
+                </NavLink>
               </li>
               <li className='nav-item'>
-                <a className='nav-link px-lg-3 py-3 py-lg-4' href='post.html'>
-                  Cadastrar
-                </a>
+              <NavLink className='nav-link px-lg-3 py-3 py-lg-4' to='register'>
+                  Cadastre-se
+                </NavLink>
               </li>
               <li className='nav-item'>
                 <a className='nav-link px-lg-3 py-3 py-lg-4' href='post.html'>
@@ -49,7 +49,7 @@ function MenuNavigation() {
               <li className='nav-item'>
                 <a
                   className='nav-link px-lg-3 py-3 py-lg-4'
-                  href='contact.html'
+                  href='sair.html'
                 >
                   Sair
                 </a>

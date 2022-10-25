@@ -3,7 +3,7 @@ function index() {
     <>
       <div className='container px-4 px-lg-5'>
         <div className='row gx-4 gx-lg-5 justify-content-center'>
-          <form className='col-12 col-md-7'>
+          <form className='col-xl-7 col-sm-10'>
             <div className='form-floating input-group mb-3'>
               <input
                 className='form-control'
